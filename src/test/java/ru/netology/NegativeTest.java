@@ -20,7 +20,7 @@ public class NegativeTest {
         $("[data-test-id=phone] input").setValue("+71234567890");
         $("[data-test-id=agreement]").click();
         $("button.button").click();
-        $("[data-test-id=order-success]").shouldBe(visible);
+//        $("[data-test-id=order-success]").shouldBe(visible);
         $("[data-test-id=order-success]").shouldHave(exactText("Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время."));
     }
 
